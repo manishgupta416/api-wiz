@@ -1,3 +1,11 @@
+useState: Manages local component state.
+useEffect: Performs side effects in function components.
+useContext: Consumes context values.
+useReducer: Manages complex state logic.
+useMemo: Memoizes expensive calculations.
+useCallback: Memoizes callback functions.
+useRef: Creates mutable object that persists across renders.
+
 -Q1. What is React, and how does it differ from other JavaScript frameworks?
 
 - React is a JavaScript library used for building user interfaces (UIs), particularly for single-page applications.
