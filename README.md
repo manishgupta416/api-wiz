@@ -1,10 +1,10 @@
-useState: Manages local component state.
-useEffect: Performs side effects in function components.
-useContext: Consumes context values.
-useReducer: Manages complex state logic.
-useMemo: Memoizes expensive calculations.
-useCallback: Memoizes callback functions.
-useRef: Creates mutable object that persists across renders.
+useState: Allows a function component to have state variables.
+useEffect: Runs code after the component renders, useful for side effects like data fetching or subscriptions.
+useContext: Lets you use values from a context (shared state) without passing props.
+useReducer: Helps manage complex state updates using a reducer function (like in Redux).
+useMemo: Caches the result of a calculation to avoid repeating it unnecessarily.
+useCallback: Caches a function definition to avoid recreating it on every render.
+useRef: Keeps a mutable value that persists across renders, often used for accessing DOM elements directly.
 
 -Q1. What is React, and how does it differ from other JavaScript frameworks?
 
